@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_aerial_platforms/as2_platform_pixhawk/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_behavior_tree/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behavior/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_behaviors/as2_behaviors_platform/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_core/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_realsense_interface/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_hardware_drivers/as2_usb_camera_interface/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_motion_controller/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_motion_reference_handlers/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_state_estimator/include/**",
+        "/home/sasa/workspace/aerostack2_ws/src/aerostack2/as2_user_interfaces/as2_alphanumeric_viewer/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

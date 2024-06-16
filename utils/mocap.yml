@@ -5,6 +5,6 @@ windows:
   - mocap:
       layout:
       panes:
-        - ros2 launch mocap_optitrack mocap.launch.py
+        - sorpx4 && ros2 launch mocap_optitrack mocap.launch.py
             namespace:=optitrack
             config_file:=real_config/mocap.yaml

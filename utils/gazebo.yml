@@ -10,4 +10,4 @@ windows:
   - gazebo:
       layout:
       panes:
-        - ./utils/launch_simulator.bash <%= simulation_config %>
+        - sorpx4 && ./utils/launch_simulator.bash <%= simulation_config %>

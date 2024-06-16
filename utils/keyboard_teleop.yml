@@ -11,6 +11,6 @@ windows:
   - keyboard_teleop:
       layout:
       panes:
-        - ros2 launch as2_keyboard_teleoperation as2_keyboard_teleoperation_launch.py
+        - sorpx4 && ros2 launch as2_keyboard_teleoperation as2_keyboard_teleoperation_launch.py
             namespace:=<%= drone_namespace %>
             use_sim_time:=<%= simulation %>

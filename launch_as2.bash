@@ -97,10 +97,15 @@ if [[ ${launch_keyboard_teleop} == "true" ]]; then
   wait
 fi
 
-if [[ ${simulated} == "true" ]]; then
-  tmuxinator start -n gazebo -p utils/gazebo.yml simulation_config=${simulation_config} &
-  wait
-fi
+# if [[ ${simulated} == "true" ]]; then
+#   tmuxinator start -n gazebo -p utils/gazebo.yml simulation_config=${simulation_config} &
+#   wait
+# fi
 
 # Attach to tmux session ${drone_ns[@]}, window 0
 tmux attach-session -t ${drone_ns[0]}:mission
+
+#ros2 service call /drone0/platform_takeoff std_srvs/srv/SetBool "{data: True}"
+#ros2 service call /drone0/set_arming_state std_srvs/srv/SetBool "{data: True}"
+#ros2 service call /drone0/platform/state_machine_event as2_msgs/srv/SetPlatformStateMachineEvent "{event: {event: 2}}"
+#
